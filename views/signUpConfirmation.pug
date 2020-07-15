@@ -1,0 +1,101 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width,initial-scale=1,user-scalable=yes')
+    //       <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+      	<style>
+      		body{
+          		font-family: 'Lato';
+      			}
+      	</style> 
+    link(rel='stylesheet', type='text/css', href='../public/css/reset.css')
+    link(rel='stylesheet', type='text/css', href='../public/css/style.css')
+    script(src='../public/scripts/jquery-latest.min.js')
+    script(src='../public/scripts/jquery.validate.min.js')
+    title BrightIdeas
+  //end header
+  // new content-left for signUp.html 
+  body
+    .container
+      header.header
+        .item.header_left
+          h1 BrightIdeas
+        .item.header_right
+          nav.right
+            a(href='../bin/www/signUp.html') Sign Up!
+            | |
+            a(href='../bin/www/FAQ.html') FAQ
+            | |
+            a(href='#') Support
+      //end header
+      .item.content-left
+        .signUpContainer
+          header
+            h3 Sign Up!
+            form(method='post', action='signUp')
+              p
+                | First Name:
+                span= a
+                | Last Name:
+                span= b
+                br
+                | Address:
+                span= c
+                br
+                | City:
+                span= d
+                br
+                | State:
+                span= e
+                br
+                | Zip:
+                span= f
+                br
+                | E-mail address:
+                span= g
+              p
+                | Have you ever paid for ideas?
+                span= h
+              p
+                | Where do you usually shop for ideas?
+                span= i
+              p
+              p
+                | Have you ever purchased ideas?
+                span= j
+              p
+                | How does using other peoples ideas compare to using/creating your own?
+                br
+                span= k
+              p
+      //end content-left for signUp.html
+      .item.content-right
+        img#blinking_image(src='../public/images/brightIdea1.png', alt='an image of a lightbulb')
+      footer.footer
+        .item.footer_left
+          .contact
+            header
+              b Contact Us
+            p BrightIdeas,
+            p 66 Sixth Street
+            p Amherst, NY 12345
+        .item.footer_right
+          .sitemap
+            header
+              b Sitemap
+            ul
+              li
+                a(href='../bin/www/index.html') Home
+              li
+                a(href='#') About Us
+              li
+                a(href='#') Privacy
+              li
+                a(href='#') Support
+              li
+                a(href='../bin/www/FAQ.html') FAQ
+              li
+                a(href='#') Careers
+    script(src='../public/scripts/app.js')
+    script(src='../public/scripts/app2.js')

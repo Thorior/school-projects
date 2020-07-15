@@ -1,0 +1,117 @@
+/* style sheets */
+.ui-chatbox {
+    position: fixed; 
+   bottom:0; 
+    padding: 2px; 
+   /* width:18%; */
+
+ 
+
+   /* background:  #CCCCCC; */
+
+}
+
+.ui-chatbox-titlebar {
+    padding: 3px;
+    height: 15px;
+    cursor: pointer;
+  /*  text-indent: 5px;*/
+
+   text-align:center; 
+
+
+   /* width:100%; */
+  
+}
+
+.ui-chatbox-content {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    display:none;  /* June 2018 streller added to open minimized */
+
+}
+
+.ui-chatbox-log {
+    padding: 3px;
+    height: 150px; /* was 250px*/
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #FFFFFF;
+}
+
+.ui-chatbox-input {
+    padding: 3px;
+    border-top: 1px solid grey;
+    overflow: hidden;
+}
+
+.ui-chatbox-input-box {
+    margin: 5px;
+  /*  border: 2px solid lightgrey;*/ /* #6699FF */
+   border: 2px solid #000000;
+    padding: 2px;
+    height: 35px;  /*was 50px*/
+}
+
+.ui-chatbox-icon {
+    float: right;
+   /* height:3px;*/
+
+}
+
+.ui-chatbox-input-focus {
+   /* border-color: #6699FF;*/
+     border-color: #000000;
+}
+
+.ui-chatbox-msg {
+    margin-top: 10px;
+    float: left;
+    clear: both;
+    /* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+}
+
+.ui-widget {
+	font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+	/*font-size: 1.1em; */
+	font-size: 0.7em;
+  
+
+}
+
+
+.ui-chatbox-titlebar {
+   
+    font-size: 1.3em;
+    background: #f9e933;
+    color: #000000;
+
+}
+
+
+
+.ui-chatbox{
+ background: #f9e933; 
+}
+.ui-widget-header{
+    border:1px solid  #f9e933;
+}
+
+
+@media screen and (max-width: 810px) {
+
+    .ui-chatbox-titlebar {
+        font-size: .9em;
+        height:10px;
+    }
+
+
+
+}
+

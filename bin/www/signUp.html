@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=yes">
+   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+	<style>
+		body{
+    		font-family: 'Lato';
+			}
+	</style> 
+	<link rel="stylesheet" type="text/css" href="../../public/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../public/css/myStyle.css">
+    <script src="../../public/scripts/jquery-latest.min.js"></script>
+    <script src="../../public/scripts/jquery.validate.min.js"></script>
+    <title>BrightIdeas</title>
+</head>
+<!--end header-->
+<!-- new content-left for signUp.html -->
+<body>
+	<div class="container">
+
+        <header class="header">
+            <div class="item header_left">
+                <h1>BrightIdeas</h1>
+            </div>
+            <div class="item header_right">
+                <nav class="right">
+                      <a href="./signUp.html">Sign Up!</a> | <a href="./FAQ.html">FAQ</a> | <a href="#">Support</a>
+                </nav>
+            </div>
+        </header>
+        <!--end header-->
+        <div class="item content-left">
+                   
+            <div class="signUpContainer">
+             <header>
+                        <h3>Sign Up!</h3>
+                   
+                <form method="post" action="signUp">
+                    <p>First Name:<input type="text" name="Fname" size="10">Last Name:<input type="text" class="reqd" name="Lname" size="10">
+                        <br>Address:<input type="text" name="address" size="30">
+                        <br>City<input type="text" name="City" size="10">
+                        <br>State:<input type="text" name="state" size="2">
+                        <br>Zip:<input type="text" name="Zip" size="5">
+                        <br>E-mail address:<input type="email" id="reqdEmail" name="emailEntry" size="30">
+                    </p>
+                    <p>Have you ever paid for ideas?<input type="radio" name="shop" value="1">Yes<input type="radio" name="shop" value="1">No
+                        <p>Where do you usually shop for ideas?<select name="Where">
+                            <option> My own brain</option><option> Other people</option><option> The internet</option>
+                        </select>
+                        </p>
+                        <p>Have you ever purchased ideas?<input type="radio" name="purchased" value="1">Yes<input type="radio" name="purchased" value="1">No
+                        </p>
+                        <p>How does using other peoples ideas compare to using/creating your own?
+                            <br>
+                            <textarea name="text1" style="width:45vw; height:5vh;"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" class="_submit"  value="Submit" />
+                            <input type="reset" class="_reset" value="Reset" />
+                        </p>
+                </form>
+            </header>
+            </div>
+        </div>
+        <!--end content-left for signUp.html-->
+
+        <div class="item content-right">
+            <img id="blinking_image" src="../../public/images/brightIdea1.png" alt="an image of a lightbulb">
+        </div>
+        <footer class="footer">
+        	<div class="item footer_left">
+        		<div class="contact">
+				<header>
+					<b>Contact Us</b>
+				</header>
+				<p>BrightIdeas,</p>
+				<p>66 Sixth Street</p>
+				<p>Amherst, NY 12345</p>
+				</div>
+			</div>
+			<div class="item footer_right">
+				<div class="sitemap">
+				<header>
+					<b>Sitemap</b>
+				</header>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="#">About Us</a>
+					</li>
+					<li>
+						<a href="#">Privacy</a>
+					</li>
+					<li>
+						<a href="#">Support</a>
+					</li>
+					<li>
+						<a href="./FAQ.html">FAQ</a>
+					</li>
+					<li>
+						<a href="#">Careers</a>
+					</li>
+				</ul>
+			
+			</div>
+			</div>
+        </footer>
+   </div>
+    <script src="../../public/scripts/index.js"></script>
+  
+</body>
+
+</html>
